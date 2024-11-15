@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+h2:first-child {
+    font-weight: 400;
+}
+
+.first_div {
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    min-width: 270px;
+    max-width: 270px;
+    padding: 1rem;
+    border-top: solid 3px #52cacb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 19, 19, 0.5);
+}
+
+.second_div {
+    background-color: #fff;
+    min-width: 270px;
+    max-width: 270px;
+    padding: 1rem;
+    border-top: solid 3px #e85453;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 19, 19, 0.5);
+}
+
+.third_div {
+    background-color: #fff;
+    min-width: 270px;
+    max-width: 270px;
+    padding: 1rem;
+    border-top: solid 3px #f9ad46;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 19, 19, 0.5);
+}
+
+.fourth_div {
+    background-color: #fff;
+    min-width: 270px;
+    max-width: 270px;
+    padding: 1rem;
+    border-top: solid 3px #5d9de1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 19, 19, 0.5);
+}
+
+.box {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+img {
+    float: right;
+}
+
+
+@media (max-width: 768px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    h2:last-child {
+        margin: 0 0 0 0.5rem;
+    }
+
+    .sub_box {
+        width: 100%;
+        min-width: unset;
+        max-width: unset;
+    }
+
+    .second_div,
+    .first_div,
+    .third_div,
+    .fourth_div{
+        width: 100%;
+        min-width: none;
+        max-width: none;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+
+    
+
+}
